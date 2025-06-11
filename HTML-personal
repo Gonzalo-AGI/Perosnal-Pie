@@ -90,7 +90,7 @@
 
 <div id="highest-score-summary" style="margin-top: 30px; text-align: center; display: flex; justify-content: center;">
   <div style="font-size: 1.2rem; font-weight: bold;">
-    Mejoramos en: <span id="top-skill-name">—</span> (<span id="top-skill-percent">0%</span>)
+    Mejoremos en: <span id="top-skill-name">—</span> (<span id="top-skill-percent">0%</span>)
   </div>
 </div>
 

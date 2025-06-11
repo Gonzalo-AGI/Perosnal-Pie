@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="{{ 'radial-sliders-personal.css' | asset_url }}" />
 
 <section class="radial-sliders-wrapper page-container">
-  <h1>Personal Questions</h1>
+  <h1>Preguntas Personales</h1>
   <div class="radar-container">
     <div class="radar-background"></div>
     <svg class="radar-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
@@ -27,16 +27,16 @@
 
       <!-- Labels on curves -->
       <text font-size="14" font-weight="600" fill="#1c1c1e">
-        <textPath href="#labelPath1" startOffset="50%" text-anchor="middle">Mind</textPath>
+        <textPath href="#labelPath1" startOffset="50%" text-anchor="middle">Mente</textPath>
       </text>
       <text font-size="14" font-weight="600" fill="#1c1c1e">
-        <textPath href="#labelPath2" startOffset="50%" text-anchor="middle">Emotional</textPath>
+        <textPath href="#labelPath2" startOffset="50%" text-anchor="middle">Emociones</textPath>
       </text>
       <text font-size="14" font-weight="600" fill="#1c1c1e">
-        <textPath href="#labelPath3" startOffset="50%" text-anchor="middle">Body</textPath>
+        <textPath href="#labelPath3" startOffset="50%" text-anchor="middle">Cuerpo</textPath>
       </text>
       <text font-size="14" font-weight="600" fill="#1c1c1e">
-        <textPath href="#labelPath4" startOffset="50%" text-anchor="middle">Spirit</textPath>
+        <textPath href="#labelPath4" startOffset="50%" text-anchor="middle">Espiritu</textPath>
       </text>
     </svg>
 
@@ -64,22 +64,22 @@
   <!-- LINEAR SLIDERS -->
   <div class="skill-list">
     <div class="skill-item">
-      <label for="linear1">Mind:</label>
+      <label for="linear1">Mente:</label>
       <input id="linear1" type="range" min="1" max="10" value="10" data-angle="270" oninput="syncFromLinear(this)" />
       <div class="value-display" id="linearValue1">10</div>
     </div>
     <div class="skill-item">
-      <label for="linear2">Emotional:</label>
+      <label for="linear2">Emociones:</label>
       <input id="linear2" type="range" min="1" max="10" value="10" data-angle="0" oninput="syncFromLinear(this)" />
       <div class="value-display" id="linearValue2">10</div>
     </div>
     <div class="skill-item">
-      <label for="linear3">Body:</label>
+      <label for="linear3">Cuerpo:</label>
       <input id="linear3" type="range" min="1" max="10" value="10" data-angle="90" oninput="syncFromLinear(this)" />
       <div class="value-display" id="linearValue3">10</div>
     </div>
     <div class="skill-item">
-      <label for="linear4">Spirit:</label>
+      <label for="linear4">Espiritu:</label>
       <input id="linear4" type="range" min="1" max="10" value="10" data-angle="180" oninput="syncFromLinear(this)" />
       <div class="value-display" id="linearValue4">10</div>
     </div>
@@ -90,7 +90,7 @@
 
 <div id="highest-score-summary" style="margin-top: 30px; text-align: center; display: flex; justify-content: center;">
   <div style="font-size: 1.2rem; font-weight: bold;">
-    Lowest Area: <span id="top-skill-name">—</span> (<span id="top-skill-percent">0%</span>)
+    Mejoramos en: <span id="top-skill-name">—</span> (<span id="top-skill-percent">0%</span>)
   </div>
 </div>
 

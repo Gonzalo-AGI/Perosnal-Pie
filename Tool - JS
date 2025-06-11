@@ -153,7 +153,7 @@ function updateHighestScoreSummary() {
   document.getElementById('top-skill-percent').textContent = `${percent}%`;
   const label = document.querySelector('#highest-score-summary div');
   if (label) {
-    label.innerHTML = `Mejoramos en: <span id="top-skill-name">${lowLabels}</span> (<span id="top-skill-percent">${percent}%</span>)`;
+    label.innerHTML = `Mejoremos en: <span id="top-skill-name">${lowLabels}</span> (<span id="top-skill-percent">${percent}%</span>)`;
   }
   if (minIndexes.length > 0) {
     showLowestSkillCard(minIndexes[0]);

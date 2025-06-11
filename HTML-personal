@@ -1,7 +1,7 @@
 {% comment %}
   sections/radial-sliders-personal.liquid
-  Personal Questions – Radial Sliders section.
-  Clockwise: Mind, Emotional, Body, Spirit
+  Preguntas Personales – Radial Sliders section.
+  Clockwise: Mente, Emociones, Cuerpo, Espiritu
 {% endcomment %}
 
 <link rel="stylesheet" href="{{ 'radial-sliders-personal.css' | asset_url }}" />
